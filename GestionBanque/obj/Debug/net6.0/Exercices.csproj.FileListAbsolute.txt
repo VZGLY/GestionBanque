@@ -1,0 +1,15 @@
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/bin/Debug/net6.0/Exercices
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/bin/Debug/net6.0/Exercices.deps.json
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/bin/Debug/net6.0/Exercices.runtimeconfig.json
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/bin/Debug/net6.0/Exercices.dll
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/bin/Debug/net6.0/Exercices.pdb
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.csproj.AssemblyReference.cache
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.AssemblyInfoInputs.cache
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.AssemblyInfo.cs
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.csproj.CoreCompileInputs.cache
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.dll
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/refint/Exercices.dll
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.pdb
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/Exercices.genruntimeconfig.cache
+/Users/gavinchaineux/RiderProjects/Exercices/Exercices/obj/Debug/net6.0/ref/Exercices.dll

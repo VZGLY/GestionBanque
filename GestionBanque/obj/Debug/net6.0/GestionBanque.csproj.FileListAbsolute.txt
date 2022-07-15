@@ -1,0 +1,15 @@
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/bin/Debug/net6.0/GestionBanque
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/bin/Debug/net6.0/GestionBanque.deps.json
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/bin/Debug/net6.0/GestionBanque.runtimeconfig.json
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/bin/Debug/net6.0/GestionBanque.dll
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/bin/Debug/net6.0/GestionBanque.pdb
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.csproj.AssemblyReference.cache
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.AssemblyInfoInputs.cache
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.AssemblyInfo.cs
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.csproj.CoreCompileInputs.cache
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.dll
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/refint/GestionBanque.dll
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.pdb
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/GestionBanque.genruntimeconfig.cache
+/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/obj/Debug/net6.0/ref/GestionBanque.dll
