@@ -44,16 +44,4 @@ public class Courant : Compte
 
     #endregion
 
-    #region Operators
-
-    public static double operator +(double valeur, Courant compte)
-    {
-        
-        if (compte.Solde > 0)
-            valeur += compte.Solde;
-        return valeur;
-
-    }
-
-    #endregion
 }

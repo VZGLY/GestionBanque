@@ -5,18 +5,18 @@ public class Banque
     #region Properties
 
     public string Nom { get; set; }
-    public Dictionary<string, Courant> Comptes { get; set; } = new Dictionary<string, Courant>();
+    public Dictionary<string, Compte> Comptes { get; set; } = new Dictionary<string, Compte>();
 
 
     #endregion
 
     #region Index
 
-    public Courant this[string numero]
+    public Compte this[string numero]
         {
             get
             {
-                Courant c;
+                Compte c;
                 Comptes.TryGetValue(numero, out c);
                 return c;
             }
@@ -26,7 +26,7 @@ public class Banque
 
     #region Methods
 
-    public void AjouterCompte(Courant compte)
+    public void AjouterCompte(Compte compte)
     {
         Comptes.Add(compte.Numero, compte);
     }
@@ -39,7 +39,7 @@ public class Banque
     public double AvoirDesComptes(Personne personne)
     {
         double solde = 0;
-        foreach (Courant compte in Comptes.Values)
+        foreach (Compte compte in Comptes.Values)
         {
             if (compte.Titulaire == personne)
             {

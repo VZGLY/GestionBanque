@@ -9,7 +9,6 @@ public class Epargne : Compte
     #endregion
 
     #region Properties
-
     public DateTime DateDernierRetrait
     {
         get

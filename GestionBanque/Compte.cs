@@ -6,7 +6,6 @@ public class Compte
 
     private string _numero;
     private double _solde;
-    
     private Personne _titulaire;
 
     #endregion
@@ -56,7 +55,18 @@ public class Compte
     }
 
     #endregion
-    
-    
+
+    #region Operators
+
+    public static double operator +(double valeur, Compte compte)
+    {
+        
+        if (compte.Solde > 0)
+            valeur += compte.Solde;
+        return valeur;
+
+    }
+
+    #endregion
     
 }
