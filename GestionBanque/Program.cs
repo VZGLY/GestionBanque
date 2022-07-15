@@ -1,5 +1,4 @@
-﻿
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using GestionBanque;
 
 Courant C1 = new Courant();

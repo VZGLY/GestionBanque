@@ -1,28 +1,14 @@
 namespace GestionBanque;
 
-public class Courant
+public class Courant : Compte
 {
     #region Private Fields
-
-    private string _numero;
-    private double _solde;
+    
     private double _ligneDeCredit;
-    private Personne _titulaire;
 
     #endregion
 
     #region Properties
-
-    public string Numero
-    {
-        get { return _numero; }
-        set { _numero = value; }
-    }
-    public double Solde
-    {
-        get { return _solde; }
-        private set { _solde = value; }
-    }
     
     public double LigneDeCredit
     {
@@ -39,18 +25,13 @@ public class Courant
             }
         }
     }
-
-    public Personne Titulaire
-    {
-        get { return _titulaire; }
-        set { _titulaire = value; }
-    }
+    
 
     #endregion
 
     #region Methods
 
-    public void Retrait(double montant)
+    public override void Retrait(double montant)
     {
         if (montant <= 0)
             return;
@@ -59,17 +40,6 @@ public class Courant
             return;
         
         Solde -= montant;
-            
-        
-    }
-    
-    public void Depot(double montant)
-    {
-        if (montant <= 0)
-            return;
-        
-        Solde += montant;
-        
     }
 
     #endregion

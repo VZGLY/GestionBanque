@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pTQAjZDlQXScahmCJapiu+j84rslX5NWQFZc5FWDKPVCzUr5X0zwikP8Fd1uYz3DVYTsgR78FgdkVkCPqg2qdA==",
+  "dgSpecHash": "a5jZWuudtHluMKujRphP3piPFqpa8A1eW5YvfMj0SbyG/JVWAMPMkkYJTpZO2l7RAVzMpFtYozkkU4DvNCd0zQ==",
   "success": true,
-  "projectFilePath": "/Users/gavinchaineux/RiderProjects/Exercices/GestionBanque/GestionBanque.csproj",
+  "projectFilePath": "C:\\Users\\GavinC\\RiderProjects\\GestionBanque\\GestionBanque\\GestionBanque.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
