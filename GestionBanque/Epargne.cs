@@ -27,7 +27,7 @@ public class Epargne : Compte
 
     protected override double CalculeInteret()
     {
-        return Solde * 0.045;
+        return Solde * 0.0975;
     }
 
     #endregion

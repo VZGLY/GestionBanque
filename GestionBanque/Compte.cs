@@ -54,9 +54,9 @@ public abstract class Compte
         
     }
 
-    public double AppliquerInteret()
+    public void AppliquerInteret()
     {
-        return Solde + CalculeInteret();
+        Solde += CalculeInteret();
     }
 
     protected abstract double CalculeInteret();
