@@ -1,6 +1,6 @@
 ﻿namespace GestionBanque;
 
-public class Compte
+public abstract class Compte
 {
     #region Private Fields
 
@@ -54,6 +54,14 @@ public class Compte
         
     }
 
+    public double AppliquerInteret()
+    {
+        return Solde + CalculeInteret();
+    }
+
+    protected abstract double CalculeInteret();
+    
+    
     #endregion
 
     #region Operators

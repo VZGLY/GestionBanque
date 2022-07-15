@@ -22,4 +22,13 @@ public class Epargne : Compte
     }
 
     #endregion
+
+    #region Methods
+
+    protected override double CalculeInteret()
+    {
+        return Solde * 0.045;
+    }
+
+    #endregion
 }

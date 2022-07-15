@@ -42,6 +42,11 @@ public class Courant : Compte
         Solde -= montant;
     }
 
+    protected override double CalculeInteret()
+    {
+        return Solde * 0.03;
+    }
+
     #endregion
 
 }
