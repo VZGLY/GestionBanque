@@ -1,6 +1,10 @@
-﻿namespace GestionBanque;
+﻿using GestionBanque.Interfaces;
 
-public abstract class Compte
+namespace GestionBanque;
+
+
+
+public abstract class Compte : ICustomer, IBanker
 {
     #region Private Fields
 
@@ -30,6 +34,8 @@ public abstract class Compte
         set { _titulaire = value; }
     }
 
+    
+   
     #endregion
 
     #region Methods

@@ -1,6 +1,6 @@
 namespace GestionBanque;
 
-public class Banque
+public class Banque 
 {
     #region Properties
 
@@ -53,3 +53,4 @@ public class Banque
     #endregion
     
 }
+

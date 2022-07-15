@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using GestionBanque;
+using GestionBanque.Interfaces;
 
 Courant C1 = new Courant();
 C1.Numero = "1234567890";
@@ -16,6 +17,10 @@ C2.Titulaire = P1;
 
 C1.LigneDeCredit = 2000;
 
+IBanker custom = C1;
+
+custom.Depot(250);
+
 C1.Depot(245.56);
 
 C1.Retrait(132.45);
@@ -27,9 +32,11 @@ Banque b = new Banque();
 b.AjouterCompte(C1);
 b.AjouterCompte(C2);
 
+Epargne ce = new Epargne();
 
 
-Console.WriteLine(b.AvoirDesComptes(P1));
+
+Console.WriteLine();
 
 
 

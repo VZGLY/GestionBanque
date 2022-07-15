@@ -1,4 +1,6 @@
-﻿namespace GestionBanque;
+﻿using System.ComponentModel;
+
+namespace GestionBanque;
 
 public class Epargne : Compte
 {
@@ -20,6 +22,8 @@ public class Epargne : Compte
             _dateDernierRetrait = value;
         }
     }
+
+  
 
     #endregion
 
